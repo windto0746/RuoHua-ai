@@ -1,0 +1,23 @@
+{
+  "name": "若花AI文案生成器",
+  "image": "python:3.10-slim",
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "forwardPorts": [7860],
+  "portsAttributes": {
+    "7860": {
+      "label": "若花AI文案生成器",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "postCreateCommand": "pip install gradio dashscope",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  }
+}

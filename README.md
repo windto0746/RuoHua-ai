@@ -4,6 +4,14 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
+[![GitHub stars](https://img.shields.io/github/stars/windto0746/RuoHua-ai?style=social)](https://github.com/windto0746/RuoHua-ai)
+
+## 🚀 一键体验
+
+[![Open in Spaces](https://img.shields.io/badge/%E2%9A%A1%20%E4%B8%80%E9%94%AE%E4%BD%93%E9%AA%8C-%E8%8B%5%E8%8A%B1AI%E6%96%87%E6%A1%A3%E7%94%9F%E6%88%90%E5%99%A8-blue?style=for-the-badge)](https://8uyrcyi91f47.space.minimaxi.com)
+[![Open in GitHub Codespaces](https://img.shields.io/badge/Open%20in-Codespaces-black?style=for-the-badge&logo=github)](https://github.com/codespaces/new?repo=windto0746/RuoHua-ai)
+
+---
 
 ## 📖 项目简介
 
@@ -18,17 +26,22 @@
 
 ## 🚀 快速开始
 
-### 环境要求
+### 方式一：一键体验（推荐）
+点击上方 **🚀 一键体验** 按钮，直接在浏览器中使用！
+
+### 方式二：本地运行
+
+**环境要求**
 - Python 3.8+
 - DashScope API Key（通义千问）
 
-### 安装依赖
+**安装依赖**
 
 ```bash
-pip install gradio dashcope
+pip install gradio dashscope
 ```
 
-### 运行项目
+**运行项目**
 
 ```bash
 python app.py
@@ -36,10 +49,13 @@ python app.py
 
 然后在浏览器中打开 `http://localhost:7860`
 
+### 方式三：GitHub Codespaces
+点击上方 **Open in Codespaces** 按钮，在云端浏览器中运行，无需本地配置！
+
 ## 📂 项目结构
 
 ```
-├── index.html          # 若花Web界面（主界面）
+├── index.html          # 若花Web界面（最新版，樱花主题）
 ├── app.py              # Gradio Web框架入口
 ├── app_simple.py       # 基础版本
 ├── app_complete.py     # 完整功能版本
@@ -58,7 +74,7 @@ python app.py
 | v3.0 | 4月11日 | 多轮交互机制 |
 | v4.0 | 4月12日 | 长篇故事场景 |
 | v5.0 | 4月12日 | Gradio Web界面 |
-| v6.0 | 4月14日 | 若花界面重塑（豆包风格） |
+| v6.0 | 4月14日 | 若花界面重塑（豆包风格+樱花主题） |
 | v7.0 | 4月15日 | 对话系统重构（版本管理） |
 
 ## 🎯 产品设计亮点
@@ -88,7 +104,7 @@ python app.py
 ## 👤 作者
 
 - **GitHub**: [@windto0746](https://github.com/windto0746)
-- **在线演示**: [若花AI文案生成器](https://67fe5cm79wb4.space.minimaxi.com)
+- **在线演示**: [🚀 一键体验若花](https://8uyrcyi91f47.space.minimaxi.com)
 
 ## 📄 License
 

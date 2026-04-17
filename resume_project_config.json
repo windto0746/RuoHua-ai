@@ -1,0 +1,78 @@
+{
+  "type": "custom",
+  "title": "若花文案生成器 - 产品迭代历程",
+  "subtitle": "项目经历",
+  "author": "Matrix Agent",
+  "pageSize": "A4",
+  "margins": { "top": 1440, "right": 1440, "bottom": 1440, "left": 1440 },
+  "sections": [
+    {
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "若花文案生成器 - 产品迭代历程", "style": "Heading1" }
+      ]
+    },
+    {
+      "level": 2,
+      "content": [
+        { "type": "paragraph", "text": "AI驱动的文案生成工具，从命令行脚本演进为完整产品", "style": "Heading2" }
+      ]
+    },
+    {
+      "level": 3,
+      "content": [
+        { "type": "paragraph", "text": "v1.0 基础版本", "style": "Heading3" },
+        { "type": "paragraph", "text": "升级方面：命令行脚本调用API生成基础文案", "style": "Normal" },
+        { "type": "paragraph", "text": "素养体现：需求洞察 —— 从用户「想要快速生成文案」的核心诉求出发", "style": "Normal" }
+      ]
+    },
+    {
+      "level": 3,
+      "content": [
+        { "type": "paragraph", "text": "v2.0 场景扩展", "style": "Heading3" },
+        { "type": "paragraph", "text": "升级方面：新增「重叙述型」「重总结型」场景，设计四风格体系", "style": "Normal" },
+        { "type": "paragraph", "text": "素养体现：场景细分 —— 将单一需求拆解为「场景×风格」矩阵", "style": "Normal" }
+      ]
+    },
+    {
+      "level": 3,
+      "content": [
+        { "type": "paragraph", "text": "v3.0 交互优化", "style": "Heading3" },
+        { "type": "paragraph", "text": "升级方面：多轮对话机制，支持用户反馈修改", "style": "Normal" },
+        { "type": "paragraph", "text": "素养体现：迭代思维 —— 理解AI产品需要「生成-反馈-优化」循环", "style": "Normal" }
+      ]
+    },
+    {
+      "level": 3,
+      "content": [
+        { "type": "paragraph", "text": "v4.0 长篇场景", "style": "Heading3" },
+        { "type": "paragraph", "text": "升级方面：新增「长篇故事型」场景，完善Prompt模板", "style": "Normal" },
+        { "type": "paragraph", "text": "素养体现：需求挖掘 —— 挖掘用户对完整故事内容的需求", "style": "Normal" }
+      ]
+    },
+    {
+      "level": 3,
+      "content": [
+        { "type": "paragraph", "text": "v5.0 Web界面", "style": "Heading3" },
+        { "type": "paragraph", "text": "升级方面：Gradio Web界面，热门话题推荐", "style": "Normal" },
+        { "type": "paragraph", "text": "素养体现：用户体验 —— 从命令行走向可视化，降低使用门槛", "style": "Normal" }
+      ]
+    },
+    {
+      "level": 3,
+      "content": [
+        { "type": "paragraph", "text": "v6.0 界面重塑", "style": "Heading3" },
+        { "type": "paragraph", "text": "升级方面：豆包风格+樱花主题，聊天式交互", "style": "Normal" },
+        { "type": "paragraph", "text": "素养体现：审美设计 —— 从0到1规划产品视觉风格，品牌元素融入", "style": "Normal" }
+      ]
+    },
+    {
+      "level": 3,
+      "content": [
+        { "type": "paragraph", "text": "v7.0 对话重构", "style": "Heading3" },
+        { "type": "paragraph", "text": "升级方面：版本保留机制，新建对话，历史管理", "style": "Normal" },
+        { "type": "paragraph", "text": "素养体现：数据管理 —— 解决版本覆盖问题，信息架构能力", "style": "Normal" }
+      ]
+    }
+  ]
+}

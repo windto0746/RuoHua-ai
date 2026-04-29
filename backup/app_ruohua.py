@@ -29,8 +29,10 @@ def setup_logging():
 logger = setup_logging()
 
 # ===== 配置 =====
-API_KEY = 'sk-15d8a880bb6a41e7900e9e8c44bfa398'
-dashscope.api_key = API_KEY
+# API Key 从环境变量读取，保护密钥安全
+dashscope.api_key = os.environ.get('DASHSCOPE_API_KEY', '')
+if not dashscope.api_key:
+    raise ValueError('请先设置环境变量：set DASHSCOPE_API_KEY=你的API密钥')
 logger.info("程序启动，API配置完成")
 
 # ===== 敏感词库 =====

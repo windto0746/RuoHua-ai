@@ -1,3 +1,11 @@
+# API Keys and Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+credentials.json
+
 # Python
 __pycache__/
 *.py[cod]
@@ -5,8 +13,17 @@ __pycache__/
 *.so
 .Python
 venv/
+ENV/
 env/
-.env
+.venv/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
 
 # IDE
 .vscode/
@@ -14,20 +31,6 @@ env/
 *.swp
 *.swo
 
-# Logs
-*.log
-
-# System
-.DS_Store
-Thumbs.db
-
-# Temporary files
-*.tmp
-*~
-
-# Word temp files
-~$*.docx
-
-# API Keys (if any)
-*.key
-.env
+# History files
+history.json
+*.json
